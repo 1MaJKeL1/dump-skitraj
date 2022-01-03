@@ -1,0 +1,1 @@
+(()=>{var e=document.querySelector(".js-cookies-accept"),t=document.querySelector(".js-cookies-container"),c="cookies_accepted";e.addEventListener("click",(function(){localStorage.setItem(c,!0),o()}));var o=function(){t.style.display="none"};localStorage.getItem(c)?o():t.style.display="flex"})();

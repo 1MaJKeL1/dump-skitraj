@@ -1,0 +1,279 @@
+/*menu header*/
+#cart-user {
+    height: 45px;
+}
+/* https://localhost/zaloguj  https://localhost/panel/moje-zgody itp*/
+#panel-logowania {
+    border-radius: 12px;
+    margin-bottom: 100px;
+    padding: 1rem!important;
+}
+
+.przycisk {
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+    max-width: 200px;
+}
+.naglowek{
+    margin-top: 3rem;
+}
+.hh{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.p-zgody {
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+    max-width: 300px;
+    width: auto;
+}
+a.text-sky {
+    color: #23242A!important;
+    text-decoration: underline!important;
+}
+.zgody-info h3, .hp-info, .rent-info, .pay-info, .pay-stat-info, .contact-info{
+    margin: 20px 0 30px 0;
+    text-align: left;
+}
+.unverified{
+    margin-bottom: 3rem;
+}
+#login-panel{
+    background: #fafafa;
+}
+.notification-row {
+    background: #fff;
+    padding: 1.5rem 2rem!important;
+}
+/*kroki zamowienia*/
+.amount-to-pay{
+   margin-top: 0px;
+}
+.amount-to-pay img{
+    max-width: 100%;
+    margin-top: 3rem;
+}
+.success img{
+    max-width: 100%;
+}
+.lp1, .lp2{
+    margin-bottom: 20px;
+}
+.success-info{
+    width: 70%;
+    margin: 40px auto;
+}
+.success-button{
+    max-width: 40%!important;
+    margin:0 auto;
+}
+/*wynajem*/
+.my-rent, .panel{
+    margin-bottom: 3rem;
+}
+.rounded12{
+    border-radius: 12px;
+}
+.btn-rent{
+    margin: 0.5rem 2rem;
+}
+/*home*/
+#howto, #boxes{
+    background: #fff;
+}
+/*how to*/
+#explanation, #box-lock{
+    background: #fff;
+}
+/*shop*/
+.shop-product{
+    background: #fff;
+    padding: 1rem;
+    border-radius: 12px;
+    margin: 25px 0px;
+}
+.product-page{
+    background: #fff;
+    padding: 3rem!important;
+    border-radius: 12px;
+    margin: 3rem auto;
+}
+.opinions-form{
+    z-index: 2;
+}
+img.opinions-morcik {
+    display: block;
+    top: -20vh;
+    left: -50vw;
+    width: 80vw;
+    height: auto;
+    transform: initial;
+    max-width: initial;
+    position: absolute;
+    z-index: 1;
+}
+/*set*/
+.set-page{
+    background: #fff;
+    padding: 3rem!important;
+    border-radius: 12px;
+    margin: 3rem auto 0 auto;
+}
+img.set-morcik {
+    display: block;
+    bottom: -5vh;
+    left: -4vw;
+    width: 200vw;
+    height: auto;
+    z-index: 1;
+    position: absolute;
+}
+.bg-morcik{
+    background: url('images/product-sets/bg-set.jpg');
+    min-height: 700px;
+    background-size: contain;
+}
+.orange{
+    color: #E78004;
+}
+/*wynajmij pakiety*/
+.rent{
+    background: #fff;
+}
+/*stopka*/
+form.lp-flex-container{
+    width: 100%!important;
+}
+
+
+
+/* MOBILE 768*/
+@media (max-width: 768px) {
+    /*uwaga raz ten styl się na mobile laduje a raz nie, logowanie powinno byc zawsze przed reejstracja*/
+    .order-1 {
+        order: 0!important;
+    }
+    .order-0 {
+        order: 1!important;
+    }
+    .login-column-label {
+        font-size: 1.5rem;
+    }
+    .zarejestruj{
+        padding: 13px 18px!important;
+    }
+    .fs28 {
+        font-size: 1.125rem!important;
+    }
+    .naglowek {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    .hh{
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    #panel-logowania .editable-tile {
+        text-align: center;
+    }
+    .przycisk, .p-zgody {
+    margin:0 auto;
+    }
+    .zgody-info h3, .hp-info, .rent-info, .pay-info, .pay-stat-info, .contact-info{
+        margin: 20px 0 30px 0!important;
+        text-align: center;
+    }
+    .agreement-tile {
+        margin-bottom: 20px;
+    }
+    h1.mobile-h{
+        font-size: 1.5rem;
+    }
+    h2.mobile-h, h3.mobile-h{
+        font-size: 1.25rem;
+    }
+
+}
+/* to do krokow w zamowieniu*/
+@media (max-width: 768px) {
+    .breadcrumb-items {
+        padding-bottom: 20px!important;
+        margin: 0 2px!important;
+    }
+
+    .fcirc {
+        width: 30px!important;
+        height: 30px!important;
+        font-size: 1rem!important;
+    }
+
+    .breadcrumb-item-label {
+        top: -50px!important;
+        font-size: .875rem!important;
+        max-width: 50px!important;
+    }
+    #panel-logowania {
+        margin: 0 20px 20px 20px;
+    }
+    .amount-to-pay{
+        margin-top: 20px;
+    }
+    .fs52 {
+        font-size: 1.5rem!important;
+    }
+    .success-button{
+        max-width: 80%!important;
+        margin:0 auto;
+    }
+}
+/*shop*/
+@media (max-width: 768px) {
+    .shop-product {
+        margin: 25px auto;
+    }
+    .list-unstyled {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .list-unstyled li {
+        flex: 25%;
+    }
+    .product-page {
+        padding: 1.5rem!important;
+    }
+    .nut {
+        width: 40px!important;
+        height: 40px!important;
+    }
+
+}
+@media (max-width: 568px) {
+    .list-unstyled li {
+        flex: 45%;
+    }
+    img.opinions-morcik {
+        display: block;
+        top: 5vh;
+        left: 0vw;
+        width: 100%;
+        position: relative;
+    }
+    .fs44 {
+        font-size: 30px;
+    }
+}
+/*stopka*/
+
+@media (min-width: 769px) {
+    .d-md-block {
+        display: block;
+    }
+}
+@media (max-width: 768px) {
+    .d-md-none {
+        display: none;
+    }
+    .footer .list-unstyled {
+        display: block;
+    }
+}
